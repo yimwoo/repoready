@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+repoready.py
+setup.py
+repoready.egg-info/PKG-INFO
+repoready.egg-info/SOURCES.txt
+repoready.egg-info/dependency_links.txt
+repoready.egg-info/entry_points.txt
+repoready.egg-info/top_level.txt
