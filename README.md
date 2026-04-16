@@ -120,3 +120,13 @@ See [`assets/demo.svg`](assets/demo.svg) for a lightweight preview image that ca
 - Terminal screenshot of a before/after repo audit
 - Sample report excerpt for a weak repo vs a polished repo
 - GIF showing RepoReady run and scoring output
+
+## Why RepoReady vs generic README advice
+- It gives a fast, repeatable audit instead of vague best-practice reminders.
+- It helps maintainers spot missing sections before launch.
+- It turns repo presentation into something measurable and easier to improve.
+
+## Before vs After
+**Before:** a useful repo with unclear structure and weak first impression.
+
+**After:** clearer README structure, stronger launch checklist coverage, and a more confidence-inspiring repo front page.
