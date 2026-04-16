@@ -79,7 +79,19 @@ Score: 8/12
 ```
 
 ## Demo
-For now, the demo is CLI-based output. Next improvements can include richer scoring, example fixes, and launch-readiness recommendations.
+![RepoReady demo](assets/demo.svg)
+
+RepoReady gives immediate packaging feedback in one command so you can tighten the README, examples, and proof before launch.
+
+```bash
+repoready /path/to/repo
+```
+
+You can also generate a shareable Markdown audit for a launch checklist or pull request:
+
+```bash
+repoready /path/to/repo --output REPOREADY-REPORT.md
+```
 
 ## Before You Launch Checklist
 - Can someone understand the repo in under 10 seconds?
@@ -94,7 +106,17 @@ RepoReady is optimized for fast packaging feedback. It is intentionally lightwei
 ## Roadmap
 - [x] Basic repo-readiness audit
 - [x] Actionable packaging suggestions
+- [x] Launch-readiness scoring bands
+- [x] Example reports for real repositories
 - [ ] Better README hook quality checks
 - [ ] Badge and social proof checks
-- [ ] Launch-readiness scoring by category
-- [ ] Example repo comparisons
+- [ ] Repo category-specific scoring
+- [ ] Example fix suggestions by missing section
+
+## Visual Example
+See [`assets/demo.svg`](assets/demo.svg) for a lightweight preview image that can be reused in social posts, docs, and launch threads.
+
+## Visual Demo Ideas
+- Terminal screenshot of a before/after repo audit
+- Sample report excerpt for a weak repo vs a polished repo
+- GIF showing RepoReady run and scoring output
